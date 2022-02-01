@@ -4,7 +4,7 @@ Here are some notes for the SIMHATTAN MODEL 1.0. More details can be found in ma
  "The Simhattan Project: An Agent-based Model of Housing Affordability" by Jason Barr (jmbarr@newark.rutgers.edu), Maryam Hosseini, and Daniel Scheer
 
 You are free to use and maniputate the code. If you use the code for research please cite the paper.
-CAVEAT EMPOTOR: There are a lot of moving parts. This code runs for the purpose it was designed. We make no guarantees that it will function in the same 
+CAVEAT EMPTOR: There are a lot of moving parts. This code runs for the purpose it was designed. We make no guarantees that it will function in the same 
 manner if you make changes to the code. This code was last written in Spyder 5.1.5 (Jan 2022) and run in Python 3.7.7
 
 Please email Jason Barr if any coding errors are found. 
@@ -56,5 +56,4 @@ Summary of the files (in alphabetical order):
 
 
 NOTES:
-If we make the grid size not square we get some kind of error. I think you can change the grid size to something so n x n it will be fine (in the Paramter.py file)
-But if you make it say 20 x 10, you might get an error. We'll try to fix this down the line.
+The model is intended to be run on a square grid, so adjust the parameters accordingly.
